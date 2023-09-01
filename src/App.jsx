@@ -20,14 +20,14 @@ function App() {
           <button
             onClick={() => setColor("orange")}
             type="button"
-            className="rounded-md bg-yellow-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-yellow-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
+            className="rounded-md bg-yellow-600 px-3 py-2 text-sm font-semibold text-sky-400 shadow-sm hover:bg-yellow-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
           >
             orange
           </button>
           <button
             onClick={() => setColor("black")}
             type="button"
-            className="rounded-md bg-lack-600 px-3 py-2 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+            className="rounded-md bg-lack-600 px-3 py-2 text-sm font-semibold text-sky-400 shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
             style={{ backgroundColor: "black" }}
           >
             black
@@ -35,7 +35,7 @@ function App() {
           <button
             onClick={() => setColor("green")}
             type="button"
-            className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+            className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-sky-400 shadow-sm hover:bg-green-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             style={{ backgroundColor: "green" }}
           >
             green
